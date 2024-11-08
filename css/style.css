@@ -21,6 +21,28 @@
   margin: 0 auto;
 }
 
+.navbar-expand-lg .navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.contact_mark {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 5px;
+}
+
+.name {
+  margin-right: 20px;
+}
+
 .wrap {
   max-width: 1394px;
   margin: 0 auto;
@@ -28,7 +50,7 @@
 
 .about__text {
   font-family: "PFDinDisplayProBold", normal;
-  font-size: 47px;
+  font-size: 3.9vw;
   font-weight: 300;
   line-height: 58px;
   letter-spacing: 0.05em;
@@ -37,9 +59,28 @@
   color: #936f49;
 }
 
-.carousel-item img {
-  width: 50%;
-  height: 80%;
+.navbar-collapse {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
+.foto {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blog_img img {
+  width: 100%;
+  height: auto;
 }
 
 .text-center {
@@ -52,12 +93,11 @@ section {
   padding: 20px 0;
 }
 
-.container {
-  max-width: 1044px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
+/*.container {
+    max-width: 1044px;
+    margin: 0 auto;
+    padding: 0 20px;
+}*/
 .carousel {
   display: block;
   text-align: left;
@@ -178,12 +218,10 @@ section {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .carousel__slide figcaption {
-  -ms-flex-item-align: end;
-      align-self: flex-end;
   padding: 20px 20px 0 20px;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
@@ -192,9 +230,10 @@ section {
   min-width: 150px;
 }
 .carousel__slide .credit {
-  margin-top: 1rem;
+  margin-top: 2rem;
   color: rgba(0, 0, 0, 0.5);
   display: block;
+  text-align: center;
 }
 .carousel__slide.scrollable {
   overflow-y: scroll;
@@ -266,5 +305,30 @@ section {
 .tel {
   color: black;
   text-decoration: none;
-  font-size: 27px;
+  font-size: 2vmin;
+}
+
+.fst-italic {
+  font-size: 4vmin;
+}
+
+h3 {
+  top: 0;
+}
+
+.footer-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tax {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0;
+  margin-top: auto;
 }/*# sourceMappingURL=style.css.map */
