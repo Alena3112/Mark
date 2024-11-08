@@ -18,8 +18,23 @@
   background-color: #f5f5f5;
   color: black;
   font-family: "PFDinDisplayProRegular", normal;
-  margin: 0 auto;
+  margin: 0px;
+  padding: 0px;
   font-size: 1.2vw;
+  height: 100vh;
+}
+
+.piano {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 15%;
+  height: 15%;
+}
+
+.logo {
+  width: 2.2rem;
+  height: 2.2rem;
 }
 
 .navbar-expand-lg .navbar-collapse {
@@ -29,7 +44,6 @@
 }
 
 .contact_mark {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -305,10 +319,14 @@ section {
      object-fit: cover;
 }
 
+.link {
+  width: 50%;
+  height: 50%;
+}
+
 .chat {
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
+  width: 2.2rem;
+  height: 2.2rem;
 }
 
 .tel {

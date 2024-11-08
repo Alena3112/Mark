@@ -27,16 +27,26 @@ $black: #26292e;
   background-color: $white;
   color: black;
   font-family: $regular;
-  margin: 0 auto;
+  margin: 0px;
+  padding: 0px;
   font-size: 1.2vw;
   //min-height: 1700px;
+  height: 100vh;
 }
-
+.piano{
+  display: flex;
+  width: 15%;
+  height: 15%;
+}
+.logo{
+  width: 2.2rem;
+  height: 2.2rem;
+}
 .navbar-expand-lg .navbar-collapse {
   justify-content: flex-end;
 }
 .contact_mark {
-  width: 100%;
+ // width: 100%;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -53,7 +63,7 @@ a {
 .wrap {
   max-width: 1394px;
   margin: 0 auto;
-  //background: url(../img/6758707.jpg) center (center/cover) no-repeat;
+  
 }
 .about__text {
   font-family: $bold;
@@ -290,10 +300,14 @@ section {
     object-fit: cover;
   }
 }
+.link{
+  width: 50%;
+  height: 50%;
+}
 .chat {
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
+  width: 2.2rem;
+  height: 2.2rem;
+  //border-radius: 100%;
 }
 .tel {
   color: black;
