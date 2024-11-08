@@ -19,6 +19,7 @@
   color: black;
   font-family: "PFDinDisplayProRegular", normal;
   margin: 0 auto;
+  font-size: 1.2vw;
 }
 
 .navbar-expand-lg .navbar-collapse {
@@ -41,6 +42,11 @@
 
 .name {
   margin-right: 20px;
+  font-size: calc(1.09rem + 1.1vw);
+}
+
+a {
+  font-size: 1.1vw;
 }
 
 .wrap {
@@ -50,13 +56,16 @@
 
 .about__text {
   font-family: "PFDinDisplayProBold", normal;
-  font-size: 3.9vw;
+  font-size: 2.9vw;
   font-weight: 300;
-  line-height: 58px;
   letter-spacing: 0.05em;
   text-align: center;
   width: 100%;
   color: #936f49;
+}
+
+.disp-6 {
+  font-size: calc(1.09rem + 1.1vw);
 }
 
 .navbar-collapse {
@@ -89,8 +98,8 @@
 }
 
 section {
-  background: #F4F4F4;
-  padding: 20px 0;
+  background: #f4f4f4;
+  padding: 5px 0;
 }
 
 /*.container {
@@ -305,7 +314,7 @@ section {
 .tel {
   color: black;
   text-decoration: none;
-  font-size: 2vmin;
+  font-size: calc(1.09rem + 1.1vw);
 }
 
 .fst-italic {
