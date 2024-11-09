@@ -27,9 +27,10 @@ $black: #26292e;
   background-color: $white;
   color: black;
   font-family: $regular;
+
   margin: 0px;
   padding: 0px;
-  font-size: 2.2vw;
+  font-size: 2.9vw;
   //min-height: 1700px;
   height: 100vh;
 }
@@ -228,7 +229,7 @@ section {
 
 .carousel__slide {
   position: relative;
-  display: grid;
+  display: flex;
   flex: 1 0 100%;
   width: 100%;
   height: 100%;
