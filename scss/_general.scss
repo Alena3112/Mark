@@ -29,7 +29,7 @@ $black: #26292e;
   font-family: $regular;
   margin: 0px;
   padding: 0px;
-  font-size: 1.2vw;
+  font-size: 2.2vw;
   //min-height: 1700px;
   height: 100vh;
 }
@@ -74,6 +74,17 @@ a {
   text-align: center;
   width: 100%;
   color: #936f49;
+  .work {
+    font-size: 2vw;
+    font-weight: 100;
+    text-align: center;
+  }
+  .help {
+    font-size: 1.1vw;
+    font-weight: 32;
+    text-align: left;
+    letter-spacing: 0.01em;
+  }
 }
 .disp-6 {
   font-size: calc(1.09rem + 1.1vw);
@@ -103,8 +114,8 @@ a {
   &:before {
     display: block;
     content: "";
-    width: 100%;
-    padding-top: ($height / $width) * 100%;
+    width: 50%;
+    padding-top: ($height / $width) * 50%;
   }
 
   > img {
@@ -115,9 +126,14 @@ a {
     bottom: 0;
     width: 100%;
     height: 100%;
+    //border-radius: 100%;
   }
 }
-
+.text_label {
+  text-align: center;
+  z-index: 100;
+  margin-top: 20px;
+}
 // Styling
 
 section {
@@ -212,7 +228,7 @@ section {
 
 .carousel__slide {
   position: relative;
-  display: block;
+  display: grid;
   flex: 1 0 100%;
   width: 100%;
   height: 100%;
@@ -223,7 +239,7 @@ section {
   white-space: normal;
 
   figure {
-    display: flex;
+    display: grid;
     margin: 0;
   }
 
@@ -243,8 +259,9 @@ section {
     //align-self: flex-end;
     padding: 20px 20px 0 20px;
     flex: 0 0 auto;
-    width: 25%;
+    width: 100%;
     min-width: 150px;
+    text-align: justify;
   }
 
   .credit {
@@ -298,11 +315,12 @@ section {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    //border-radius: 100%;
   }
 }
 .link {
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
 }
 .chat {
   width: 2.2rem;
