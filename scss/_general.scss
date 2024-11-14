@@ -30,7 +30,7 @@ $black: #26292e;
 
   margin: 0px;
   padding: 0px;
-  font-size: 2.9vw;
+  font-size: calc(0.9rem + 0.9vw);
   //min-height: 1700px;
   height: 100vh;
 }
@@ -55,7 +55,7 @@ a {
 }
 .logo{
   font-family: $bold;
-  font-size: 1.9vw;
+  font-size: calc(0.5rem + 0.5vw);
   font-weight: 100;
   //line-height: 58px;
   
@@ -73,12 +73,12 @@ a {
   width: 100%;
   color: #936f49;
   .work {
-    font-size: 4vw;
+    font-size: calc(0.5rem + 0.5vw);
     font-weight: 100;
     text-align: center;
   }
   .help {
-    font-size: 1.1vw;
+    font-size: calc(0.5rem + 0.5vw);
     font-weight: 32;
     text-align: left;
     letter-spacing: 0.01em;
@@ -353,14 +353,9 @@ h3 {
   }
 }
 .slide_text{
-  font-size: 1.5vw;
-    font-weight: 24;
+  font-size: calc(0.5rem + 0.5vw);
+    font-weight: 84;
     text-align: center;
-    &:before {
-      display: block;
-      content: "";
-      width: 50%;
-      padding-top: 5px;
-    }
+    color: black;
 
 }
