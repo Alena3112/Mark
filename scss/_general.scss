@@ -34,16 +34,7 @@ $black: #26292e;
   //min-height: 1700px;
   height: 100vh;
 }
-.piano {
-  //display: flex;
-  width: 15%;
-  height: 15%;
 
-  img {
-    width: 2.2rem;
-    height: 2.2rem;
-  }
-}
 .navbar-expand-lg .navbar-collapse {
   justify-content: flex-end;
 }
@@ -62,21 +53,27 @@ $black: #26292e;
 a {
   font-size: 1.1vw;
 }
-.wrap {
-  max-width: 1394px;
-  margin: 0 auto;
+.logo{
+  font-family: $bold;
+  font-size: 1.9vw;
+  font-weight: 100;
+  //line-height: 58px;
+  
+  text-align: center;
+  width: 100%;
+  color: #936f49;
 }
 .about__text {
   font-family: $bold;
   font-size: 4vw;
-  font-weight: 300;
+  font-weight: 400;
   //line-height: 58px;
   letter-spacing: 0.05em;
   text-align: center;
   width: 100%;
   color: #936f49;
   .work {
-    font-size: 2vw;
+    font-size: 4vw;
     font-weight: 100;
     text-align: center;
   }
@@ -116,7 +113,7 @@ a {
     display: block;
     content: "";
     width: 50%;
-    padding-top: ($height / $width) * 50%;
+    padding-top: ($height / $width) * 80%;
   }
 
   > img {
@@ -196,22 +193,22 @@ section {
     }
 
     &:nth-of-type(1):checked ~ .carousel__thumbnails li:nth-of-type(1) {
-      box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+      box-shadow: 0px 0px 0px 1px #936f49;
     }
     &:nth-of-type(2):checked ~ .carousel__thumbnails li:nth-of-type(2) {
-      box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+      box-shadow: 0px 0px 0px 1px #936f49;
     }
     &:nth-of-type(3):checked ~ .carousel__thumbnails li:nth-of-type(3) {
-      box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+      box-shadow: 0px 0px 0px 1px #936f49;
     }
     &:nth-of-type(4):checked ~ .carousel__thumbnails li:nth-of-type(4) {
-      box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+      box-shadow: 0px 0px 0px 1px #936f49;
     }
     &:nth-of-type(5):checked ~ .carousel__thumbnails li:nth-of-type(5) {
-      box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+      box-shadow: 0px 0px 0px 1px #936f49;
     }
     &:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(6) {
-      box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+      box-shadow: 0px 0px 0px 1px #936f49;
     }
   }
 }
@@ -283,10 +280,10 @@ section {
   margin: 0;
   display: flex;
 
-  margin: 0 -10px;
+  margin: 0px -10px 50px -10px;
 
   .carousel__slides + & {
-    margin-top: 20px;
+    margin-top: 50px;
   }
 
   li {
@@ -298,7 +295,7 @@ section {
 
   label {
     display: block;
-    @include aspect-ratio(1, 1);
+    //@include aspect-ratio(1, 1);
 
     &:hover,
     &:focus {
@@ -349,4 +346,21 @@ h3 {
   height: auto;
   margin-bottom: 0;
   margin-top: auto;
+  p{
+    font-size: 1.0vw;
+    font-weight: 24;
+    text-align: left;
+  }
+}
+.slide_text{
+  font-size: 1.5vw;
+    font-weight: 24;
+    text-align: center;
+    &:before {
+      display: block;
+      content: "";
+      width: 50%;
+      padding-top: 5px;
+    }
+
 }
