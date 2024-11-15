@@ -53,12 +53,12 @@ $black: #26292e;
 a {
   font-size: 1.1vw;
 }
-.logo{
+.logo {
   font-family: $bold;
   font-size: calc(2.1rem + 1.5vw);
   font-weight: 700;
   //line-height: 58px;
-  
+
   text-align: center;
   width: 100%;
   color: #936f49;
@@ -346,20 +346,19 @@ h3 {
   height: auto;
   margin-bottom: 0;
   margin-top: auto;
-  p{
-    font-size: 1.0vw;
+  p {
+    font-size: 1vw;
     font-weight: 24;
     text-align: left;
   }
 }
-.slide_text{
+.slide_text {
   font-size: calc(0.2rem + 1.9vw);
-    font-weight: 84;
-    text-align: center;
-    color: black;
-    word-wrap: break-word;
-
+  font-weight: 84;
+  text-align: center;
+  color: black;
+  word-wrap: break-word;
 }
-.fig_text{
-  font-size: calc(1.1rem + 0.5vw);
+.fig_text {
+  font-size: calc(0.9rem + 0.5vw);
 }
